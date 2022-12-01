@@ -1,0 +1,23 @@
+.info {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    background: #131217;
+    color: #eeeeee;
+    box-sizing: border-box;
+}
+
+.form {
+    height: 15px;
+    width:100%;
+    padding:20px;
+    border-radius:10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkgrey;
+    box-sizing: border-box;
+}

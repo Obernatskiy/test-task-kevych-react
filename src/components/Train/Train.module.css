@@ -1,14 +1,27 @@
 .Train {
+    margin: 5px;
+    width: 100%;
+    background: #131217;
+    border-radius: 5px;
+    flex-direction: row;
     display: flex;
     align-items: center;
-    margin: 10px;
     align-content: center;
+    justify-content: center;
 }
-
 .container {
     border: 1px solid black;
-    padding: 10px;
+    padding: 5px;
+    background-color: #181b1e;
+    border-radius: 10px;
 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: #a6ba10;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .tools button {

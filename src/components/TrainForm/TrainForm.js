@@ -27,10 +27,10 @@ const TrainForm = ({addTrain, trainForUpdate,updateTrain}) => {
     return (
         <div>
             <form onSubmit={handleSubmit(submit)}>
-                <input type="number" placeholder={'number'} {...register('number', {})}/>
-                <input type="text" placeholder={'name'} {...register('name', {})}/>
-                <input type="string" placeholder={'departure'} {...register('departure', {})}/>
-                <input type="string" placeholder={'arrival'} {...register('arrival', {})}/>
+                <input type="number" placeholder={'Number'} {...register('number', {})}/>
+                <input type="text" placeholder={'Route'} {...register('name', {})}/>
+                <input type="time" placeholder={'Departure'} {...register('departure', {})}/>
+                <input type="time" placeholder={'Arrival'} {...register('arrival', {})}/>
                 <button>{trainForUpdate ? 'Edit' : 'Save'}</button>
             </form>
         </div>

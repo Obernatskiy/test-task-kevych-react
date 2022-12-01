@@ -6,10 +6,10 @@ const Train = ({train, deleteTrain,setTrainForUpdate}) => {
     return (
         <div className={css.Train}>
             <div className={css.container}>
-                <div> {number}</div>
-                <div> name:  {name}</div>
-                <div> departure -{departure}</div>
-                <div> arrival -{arrival}</div>
+                <h2> {number}  -  {name}  -  {departure}  -  {arrival}</h2>
+                {/*<h2> {name}</h2>*/}
+                {/*<h2> {departure}</h2>*/}
+                {/*<h2> {arrival}</h2>*/}
             </div>
             <div className={css.tools}>
                 <button onClick={() => setTrainForUpdate(train)}>Edit</button>

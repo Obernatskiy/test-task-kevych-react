@@ -1,7 +1,8 @@
 const baseURL = 'http://localhost:5000'
 
 const urls = {
-    trains:'/trains'
+    trains:'/trains',
+    trainsFilter: '/trains/filter'
 }
 
 export {
